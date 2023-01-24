@@ -1,0 +1,64 @@
+.Footer{
+    min-height:42vh;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:center;
+}
+.Footer .col{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    margin-bottom:20px;
+    flex-wrap:wrap;
+    margin:2rem;
+}
+.Footer .col-1{
+    margin-bottom:4.2rem;
+}
+.Footer .col h4{
+    color:var(--green);
+    font-size:2.7rem;
+}
+.Footer .col p{
+    color:#666;
+    font-size:1.7rem;
+}
+.Footer .col p strong{
+    padding-right:.5rem;
+}
+.Footer .col a{
+    font-size:1.7rem;
+    text-decoration:none;
+    color:#666;
+    cursor:pointer;
+}
+.Footer .col a:hover{
+    font-size:1.9rem;
+    font-weight:bold;
+}
+.Footer .col .follow .icons{
+    margin:.5rem;
+   
+}
+.Footer .col .follow .icons i{
+    font-size:2rem;
+    padding:.4rem;
+    color:#666;
+}
+.Footer .col .follow .icons i:hover{
+    color:var(--green);
+    cursor:pointer;
+    font-size:2.2rem;
+}
+.Footer .col .row img{
+    height:5rem;
+    width:17rem;
+    border:.2rem solid rgba(0,0,0,.3);
+    margin:.2rem;
+    cursor:pointer;
+}
+.Footer .col .payment{
+    height:4rem;
+    margin:.2rem;
+}
